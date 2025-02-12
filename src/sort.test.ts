@@ -27,3 +27,5 @@ describe("quickSort function", () => {
         expect(quickSort([555])).toEqual([555]);
     });
 });
+
+// test in terminal command: npm test
