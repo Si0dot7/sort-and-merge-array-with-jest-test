@@ -32,15 +32,15 @@ export function quickSort<T extends Input>(arr: T[]): T[] {
 }
 
 
-// function sortNumber<T extends Input>(arr1: T[],arr2: T[],arr3: T[]): void{
-//     console.log(quickSort(mergeArray(arr1,arr2,arr3)));
-// }
+function sortNumber<T extends Input>(arr1: T[],arr2: T[],arr3: T[]): void{
+    console.log(quickSort(mergeArray(arr1,arr2,arr3)));
+}
 
-// function sortString<T extends Input>(arr1: T[],arr2: T[],arr3: T[]): void{
-//     console.log(quickSort(mergeArray(arr1,arr2,arr3)));
+function sortString<T extends Input>(arr1: T[],arr2: T[],arr3: T[]): void{
+    console.log(quickSort(mergeArray(arr1,arr2,arr3)));
     
-// }
+}
 
-// sortNumber([1,2,3],[5,6,7],[6,4,3])
-// sortString(['table','milk','me'],['cat','dog','moodang'],['sun','moon','venut'])
+sortNumber([1,2,3],[5,6,7],[6,4,3])
+sortString(['table','milk','me'],['cat','dog','moodang'],['sun','moon','venut'])
 
